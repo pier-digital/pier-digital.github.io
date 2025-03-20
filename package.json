@@ -12,7 +12,10 @@
     "url": "https://github.com/leezhian/simple-blog.git/issues"
   },
   "sideEffects": false,
-  "author": "kim, bluepikachu",
+  "engines": {
+    "node": "=20.18.1"
+  },
+  "packageManager": ">=pnpm@8.10.5",
   "scripts": {
     "prepare": "husky",
     "dev": "astro dev",

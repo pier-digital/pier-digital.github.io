@@ -74,7 +74,7 @@ Theme configuration is done through `slate.config.ts` in the root directory.
 | site | Final deployment link | `string` | - |
 | title | Website title | `string` | - |
 | description | Website description | `string` | - |
-| lang | Language | `string` | `zh-CN` |
+| lang | Language | `string` | `pt-BR` |
 | theme | Theme | `{ mode: 'auto' | 'light' | 'dark', enableUserChange: boolean }` | `{ mode: 'auto', enableUserChange: true }` |
 | avatar | Avatar | `string` | - |
 | sitemap | Website sitemap configuration | [SitemapOptions](https://docs.astro.build/en/guides/integrations-guide/sitemap/)  | - |

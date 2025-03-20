@@ -6,44 +6,44 @@ export const algoliaLocalesConfig: Record<
   LangType,
   Omit<DocSearchProps, 'appId' | 'apiKey' | 'indexName'>
 > = {
-  'en-US': {},
-  'zh-CN': {
-    placeholder: '搜索文档',
+  'pt-BR': {
+    placeholder: 'Pesquise o que você precisa',
     translations: {
       button: {
-        buttonText: '搜索',
-        buttonAriaLabel: '搜索',
+        buttonText: 'Pesquisar',
+        buttonAriaLabel: 'Pesquisar',
       },
       modal: {
         searchBox: {
-          resetButtonTitle: '清除查询条件',
-          resetButtonAriaLabel: '清除查询条件',
-          cancelButtonText: '取消',
-          cancelButtonAriaLabel: '取消',
+          resetButtonTitle: 'Limpar a pesquisa',
+          resetButtonAriaLabel: 'Limpar a pesquisa',
+          cancelButtonText: 'Cancelar',
+          cancelButtonAriaLabel: 'Cancelar',
         },
         startScreen: {
-          recentSearchesTitle: '搜索历史',
-          noRecentSearchesText: '没有搜索历史',
-          saveRecentSearchButtonTitle: '保存至搜索历史',
-          removeRecentSearchButtonTitle: '从搜索历史中移除',
-          favoriteSearchesTitle: '收藏',
-          removeFavoriteSearchButtonTitle: '从收藏中移除',
+          recentSearchesTitle: 'Histórico de buscas',
+          noRecentSearchesText: 'Nenhum histórico de buscas',
+          saveRecentSearchButtonTitle: 'Salvar no histórico de buscas',
+          removeRecentSearchButtonTitle: 'Remover do histórico de buscas',
+          favoriteSearchesTitle: 'Favoritos',
+          removeFavoriteSearchButtonTitle: 'Remover dos favoritos',
         },
         errorScreen: {
-          titleText: '无法获取结果',
-          helpText: '你可能需要检查你的网络连接',
+          titleText: 'Não foi possível obter resultados',
+          helpText: 'Você pode precisar verificar sua conexão com a internet',
         },
         footer: {
-          selectText: '选择',
-          navigateText: '切换',
-          closeText: '关闭',
-          searchByText: '搜索提供者',
+          selectText: 'Selecionar',
+          navigateText: 'Navegar',
+          closeText: 'Fechar',
+          searchByText: 'Provedor de busca',
         },
         noResultsScreen: {
-          noResultsText: '无法找到相关结果',
-          suggestedQueryText: '你可以尝试查询',
-          reportMissingResultsText: '你认为该查询应该有结果？',
-          reportMissingResultsLinkText: '点击反馈',
+          noResultsText: 'Não foi possível encontrar resultados',
+          suggestedQueryText: 'Você pode tentar buscar',
+          reportMissingResultsText:
+            'Você acha que essa busca deveria ter resultados?',
+          reportMissingResultsLinkText: 'Clique para enviar um feedback',
         },
       },
     },

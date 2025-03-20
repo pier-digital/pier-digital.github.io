@@ -1,20 +1,20 @@
 export default {
   common: {
     /** all tags */
-    all: 'All',
+    all: 'Todos',
   },
   /** blog page */
   blog: {
     /** last modified */
-    lastModified: 'Last edited',
+    lastModified: 'Última edição',
     /** reading time */
-    readingTime: '{{minutes}} Min Read'
+    readingTime: '{{minutes}} Minutos de leitura',
   },
   /** 404 page */
   404: {
     /** page text */
-    pageText: 'Page Not Found',
+    pageText: 'Página não encontrada',
     /** back button text */
-    backBtnText: 'Back to Home'
-  }
-}
+    backBtnText: 'Voltar para a página inicial',
+  },
+};

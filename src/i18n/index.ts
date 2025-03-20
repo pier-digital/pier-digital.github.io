@@ -1,19 +1,15 @@
-import i18next from 'i18next'
-import zhCn from './lang/zh-cn';
-import enUS from './lang/en-us'
+import i18next from 'i18next';
+import ptBR from './lang/pt-br';
 import slateConfig from '~@/slate.config';
 
 await i18next.init({
   lng: slateConfig.lang,
-  fallbackLng: 'es-US',
+  fallbackLng: 'pt-BR',
   resources: {
-    'zh-CN': {
-      translation: zhCn
+    'pt-BR': {
+      translation: ptBR,
     },
-    'en-US': {
-      translation: enUS
-    }
-  }
-})
+  },
+});
 
 export default i18next;

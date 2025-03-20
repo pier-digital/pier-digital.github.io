@@ -4,20 +4,21 @@
 import { defineConfig } from './src/helpers/config-helper';
 
 export default defineConfig({
-  lang: 'en-US',
-  site: 'https://slate-blog-demo.vercel.app',
+  lang: 'pt-BR',
+  site: 'https://pier-digital.github.io',
   avatar: '/avatar.png',
-  title: 'Slate Blog',
-  description: 'Pure thoughts, simple stories.',
+  title: 'Building Pier',
+  description:
+    'Veja como estamos construindo o futuro dos seguros no Brasil :).',
   lastModified: true,
   readTime: true,
   footer: {
-    copyright: '© 2025 Slate Design',
+    copyright: '© 2025 Building Pier',
   },
   socialLinks: [
     {
       icon: 'github',
-      link: 'https://github.com/SlateDesign/slate-blog'
+      link: 'https://github.com/pier-digital/pier-digital.github.io',
     },
-]
+  ],
 });
